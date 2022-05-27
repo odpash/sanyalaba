@@ -154,6 +154,7 @@ def lab3_task7_two(n):
     arr = []
     for i in range(n):
         arr.append(2 ** i + 3 ** (i + 1))
+    return arr
 
 
 def lab3_task7_three(n, arr):
